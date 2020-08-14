@@ -1,7 +1,14 @@
 /* Nav Bar CSS */
 
 .logo {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logoimg {
+  text-align: center;
+  width: 30em;
+  height: auto;
 }
 
 button {
@@ -14,7 +21,7 @@ button {
   border-style: solid;
   background-color:lightgoldenrodyellow;
   padding: 0.5em;
-  width: 60%;
+  max-width: 60em;
   border-radius: 30px;
   margin: auto;
 }
