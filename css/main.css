@@ -4,12 +4,10 @@
         font-family: 'Poppins', sans-serif;
     }
 
-
     .country-info {
         display: flex;
         justify-content: center;
         flex-direction: column;
-       
     }
 
     .country-image {
@@ -20,7 +18,7 @@
         background-color:lightgoldenrodyellow;
         padding: 0.5em;
         border-radius: 30px;
-        margin: auto;
+        margin: 3em;
         border: 100%;
     }
 
@@ -51,6 +49,22 @@
         border: 5px solid;
         padding: 2em;
         flex-grow: 1;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .about-us {
+        max-width: 30em;
+        margin-top: -1em;
+    }
+
+    .agents {
+        margin-top: -1em;
     }
 
     footer {
