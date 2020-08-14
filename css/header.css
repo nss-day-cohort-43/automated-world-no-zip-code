@@ -1,0 +1,21 @@
+/* Nav Bar CSS */
+
+.logo {
+    text-align: center;
+}
+.countries {
+  
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  background-color: thistle;
+  padding: 0.5em;
+  width: 60%;
+}
+
+.country {
+    background-color: #4CAF50; 
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 12px;
+}
