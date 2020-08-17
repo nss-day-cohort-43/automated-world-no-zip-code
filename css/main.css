@@ -71,14 +71,43 @@
         margin-top: -1em;
         text-align: center;
     }
-
+    
     .travel-agents {
-        margin-bottom: -0.5em;
+        margin-bottom: 0;
     }
 
     .agents {
-        margin-top: -1em;
-        text-align: center;
+        border: 5px solid;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-self: flex-start;
+        background: lightgoldenrodyellow;
+        padding: 0.5em;
+        border-radius: 30px;
+        border: 100%;
+    }
+
+    .agent-list {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .agentimage {
+        width: auto;
+        height: 10em;  
+    }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        margin-bottom: 1.5em; 
+        margin-top: 1.5em;  
+    }
+
+    .bio {
+        margin-left: 0.5em;
     }
 
     footer {
