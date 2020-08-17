@@ -37,18 +37,26 @@
         border: 5px solid;
         padding: 2em;
         flex-grow: 1;
+        background: lightgoldenrodyellow;
+        border-radius: 12px;
     }
 
     .landmarks {
         border: 5px solid;
         padding: 2em;
         flex-grow: 1;
+        margin-left: 1em;
+        margin-right: 1em;
+        background: lightgoldenrodyellow;
+        border-radius: 12px;
     }
 
     .citizens {
         border: 5px solid;
         padding: 2em;
         flex-grow: 1;
+        background: lightgoldenrodyellow;
+        border-radius: 12px;
     }
 
     .information {
