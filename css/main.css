@@ -59,12 +59,18 @@
     }
 
     .about-us {
-        max-width: 30em;
+        max-width: 50em;
         margin-top: -1em;
+        text-align: center;
+    }
+
+    .travel-agents {
+        margin-bottom: -0.5em;
     }
 
     .agents {
         margin-top: -1em;
+        text-align: center;
     }
 
     footer {
